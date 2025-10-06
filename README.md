@@ -23,15 +23,17 @@ AlphaSuite is a comprehensive suite of tools for quantitative financial analysis
 
 Check out these articles to see how AlphaSuite can be used to develop and test sophisticated trading strategies from scratch:
 
-*   **[The Institutional Edge: How We Boosted a Strategy’s Return with Volume Profile](https://medium.com/codex/the-institutional-edge-how-we-boosted-a-strategys-return-from-162-to-223-with-one-indicator-eef74cadae91)**: A deep dive into using Volume Profile to enhance a classic trend-following strategy, demonstrating a significant performance boost.
+*   **[We Backtested a Viral Trading Strategy. The Results Will Teach You a Lesson.](https://medium.com/codex/we-backtested-a-viral-trading-strategy-the-results-will-teach-you-a-lesson-b57d7c9bfb74)**: An investigation into a popular trading strategy, highlighting critical lessons on overfitting, data leakage, and the importance of robust backtesting.
 *   **[I Was Paralyzed by Uncertainty, So I Built My Own Quant Engine](https://medium.com/codex/i-was-paralyzed-by-stock-market-uncertainty-so-i-built-my-own-quant-engine-176a6706c451)**: The story behind AlphaSuite's creation and its mission to empower data-driven investors. Also available as a [video narration](https://youtu.be/NXk7bXPYGP8).
 *   **[From Chaos Theory to a Profitable Trading Strategy](https://medium.com/codex/from-chaos-theory-to-a-profitable-trading-strategy-in-30-minutes-d247cba4bbbd)**: A step-by-step guide on building a rule-based strategy using concepts from chaos theory.
 *   **[Supercharging a Machine Learning Strategy with Lorenz Features](https://medium.com/codex/from-chaos-to-alpha-part-2-supercharging-a-machine-learning-strategy-with-lorenz-features-794acfd3f88c)**: Demonstrates how to enhance an ML-based strategy with custom features and optimize it using walk-forward analysis.
+*   **[The Institutional Edge: How We Boosted a Strategy’s Return with Volume Profile](https://medium.com/codex/the-institutional-edge-how-we-boosted-a-strategys-return-from-162-to-223-with-one-indicator-eef74cadae91)**: A deep dive into using Volume Profile to enhance a classic trend-following strategy, demonstrating a significant performance boost.
 
 ## 🛠️ Tech Stack
 
 *   **Backend**: Python
 *   **Web Framework**: Streamlit
+*   **Backtesting Engine**: [pybroker](https://github.com/edtechre/pybroker)
 *   **Data Analysis**: Pandas, NumPy, SciPy
 *   **Financial Data**: yfinance, TA-Lib
 *   **Database**: PostgreSQL with SQLAlchemy
@@ -101,7 +103,7 @@ Follow these steps to set up and run AlphaSuite on your local machine.
 
 2.  **Run the Streamlit Web Application:**
     ```bash
-    streamlit run 🏠_Home.py
+    streamlit run Home.py
     ```
     Open your web browser to the local URL provided by Streamlit (usually `http://localhost:8501`).
 
