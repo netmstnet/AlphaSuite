@@ -19,6 +19,33 @@ AlphaSuite is a comprehensive suite of tools for quantitative financial analysis
 *   **Robust Data Pipeline**: Fetches and stores comprehensive company data, price history, financials, and analyst estimates from Yahoo Finance into a PostgreSQL database.
 *   **Interactive Web UI**: A Streamlit-based dashboard for managing data, training models, and analyzing results. 
 
+## 🌐 Live Demo
+
+**Check out the live dashboard application here: [https://alphasuite.aitransformer.net](https://alphasuite.aitransformer.net)**
+
+> **Note:** The live demo runs on a free-tier service. To prevent high costs and long loading times, data loading and AI-powered features are disabled. For full functionality and the best performance, it's recommended to run the application locally.
+
+## 🖼️ Screenshots
+
+Here's a glimpse of what you can do with AlphaSuite.
+
+### Home Page
+![AlphaSuite Home Page](images/AlphaSuite_Home.jpg)
+
+### Backtest Performance Visualization
+
+Analyze the out-of-sample performance of a trained and tuned strategy model.
+
+**Summary Metrics & Equity Curve:**
+![Summary Metrics](images/SPY_donchian_breakout_summary_metrics.jpg)
+![Equity Curve](images/SPY_donchian_breakout_equity_curve.jpg)
+
+**Trade Execution Chart:**
+![Trade Chart](images/SPY_donchian_breakout_trade_chart.jpg)
+
+**Detailed Metrics Table:**
+![Detailed Metrics](images/SPY_donchian_breakout_metrics.jpg)
+
 ## 📖 Articles & Case Studies
 
 Check out these articles to see how AlphaSuite can be used to develop and test sophisticated trading strategies from scratch:
